@@ -1,4 +1,4 @@
-# covid-19_hootiehoo
+# Ganémosle al virus
 
 ## 1. Diagrama de flujo - Ganemosle al Virus
 
@@ -22,6 +22,6 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 |  			**N.º 8** Yo 			como usuario menor quisiera poder divertirme mientras aprendo 			sobre el covid-19. 		                                                               |  			Dado: que el usuario 			selecciona jugos. Cuando: Carga la interfaz. 		                                  |  			Entonces: el usuario puede 			iniciar su aprendizaje a través del juego. Terminado: El usuario 			realiza actividades interactivas mientras aprende y se divierte.  			   			 		                     |
 
 ![Footer](src/Img/footerHootieHoo.jpg)
-Autoras: Alejandra Colicheo / Dalia García / Yosliana Aguilar
+**Autoras:** Alejandra Colicheo / Dalia García / Yosliana Aguilar
 
-Laboratoria / SCL 013 
+**Laboratoria / SCL 013**
