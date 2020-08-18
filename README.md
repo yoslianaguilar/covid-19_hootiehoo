@@ -4,4 +4,4 @@
 
 En el siguiente diagrama reconocemos las principales funciones que debe tener nuestro proyecto creado con ayuda de las principales Historias de usuarios.
 
-![Diagrama](/Img/Diagrama-GAV.png)
+![Diagrama](src/Img/Diagrama-GAV.png)
