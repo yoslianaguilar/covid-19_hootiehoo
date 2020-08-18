@@ -1,14 +1,14 @@
-# Ganémosle al virus
+## Ganémosle al virus
 
-## 1. Diagrama de flujo - Ganemosle al Virus
+### 1. Diagrama de flujo - Ganemosle al Virus
 
 En el siguiente diagrama reconocemos las principales funciones que debe tener nuestro proyecto creado con ayuda de las principales Historias de usuarios.
 
 ![Diagrama](src/Img/Diagrama-GAV.png)
 
-## 2. Prototipo de Baja Fidelidad
+### 2. Prototipo de Baja Fidelidad
 
-## 3. Historias de Usuario
+### 3. Historias de Usuario
 
 |                                                                   			**Historias de Usuarios** 		                                                                  |                                      			**Criterio de Aceptación** 		                                     |                                                                                			**Criterios de Terminado** 		                                                                              |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
