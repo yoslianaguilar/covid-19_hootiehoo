@@ -9,3 +9,7 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 ## 2. Prototipo de Baja Fidelidad
 
 ## 3. Historias de Usuario
+
+![Footer](src/Img/footerHootieHoo.jpg)
+Autoras: Alejandra Colicheo / Dalia García / Yosliana Aguilar
+Laboratoria / SCL 013 
