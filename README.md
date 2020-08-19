@@ -7,6 +7,9 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 ![Diagrama](src/Img/Diagrama-GAV.png)
 
 ### 2. Prototipo de Baja Fidelidad
+![Prototipo de baja fidelidad](src/Img/inicio.jpeg)
+![Prototipo de baja fidelidad](src/Img/niños.jpeg)
+![Prototipo de baja fidelidad](src/Img/adultos.jpeg)
 
 ### 3. Historias de Usuario
 
