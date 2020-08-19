@@ -27,4 +27,4 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 ![Footer](src/Img/footerHootieHoo.jpg)
 **Autoras:** Alejandra Colicheo / Dalia García / Yosliana Aguilar
 
-**Laboratoria / SCL 013**
+Laboratoria / SCL 013

@@ -1,5 +1,5 @@
 {
-  "name": "covid-19_hootiehoo",
+  "name": "prueba",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,18 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yoslianaguilar/covid-19_hootiehoo.git"
-  },
-  "author": "Alejandra Colicheo / Dalia Garcia / Yosliana Aguilar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yoslianaguilar/covid-19_hootiehoo/issues"
-  },
-  "homepage": "https://github.com/yoslianaguilar/covid-19_hootiehoo#readme"
+  }
 }
