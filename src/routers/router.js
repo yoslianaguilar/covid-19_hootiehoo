@@ -14,23 +14,15 @@ export const AppRouter = () => {
     <Router>
       <div>
         <nav>
-       
-              <Link to="/">Inicio</Link>
-          
-              <Link to="/about">Nosotros</Link>
-            
-              <Link to="/contacts">Contacto</Link>
-           
+          <Link to="/">Inicio</Link>
+          <Link to="/about">Nosotros</Link>
+          <Link to="/contacts">Contacto</Link>
         </nav>
-
-        
-       <Switch>
-
+        <Switch>
           <Route path='/about' component= {AboutPage} />
           <Route path='/contacts' component= {ContactsPage} />
           <Route path="/home" component={HomePage} />
           <Route path="/" component={HomePage} />
-               
         </Switch>
       </div>
     </Router>
