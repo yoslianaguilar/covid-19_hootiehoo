@@ -6,18 +6,7 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 
 ![Diagrama](src/Img/Diagrama-GAV.png)
 
-### 2. Prototipo de Baja Fidelidad
-![Prototipo de baja fidelidad](src/Img/inicio.jpeg)
-![Prototipo de baja fidelidad](src/Img/niños.jpeg)
-![Prototipo de baja fidelidad](src/Img/adultos.jpeg)
-
-### 3. Prototipo de Alta Fidelidad
-![Prototipo de Alta fidelidad](src/Img/figma1.png)
-![Prototipo de Alta fidelidad](src/Img/figma2.png)
-![Prototipo de Alta fidelidad](src/Img/figma3.png)
-![Prototipo de Alta fidelidad](src/Img/figma4.png)
-
-### 4. Historias de Usuario
+### 2. Historias de Usuario
 
 |                                                                   			**Historias de Usuarios** 		                                                                  |                                      			**Criterio de Aceptación** 		                                     |                                                                                			**Criterios de Terminado** 		                                                                              |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -29,6 +18,18 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 |  			**N.º 6** Yo 			como usuario menor quiero tener acceso a material acorde a mi 			edad:  Para: tener información referente al covid-19 		                             |  			Dado: que el usuario 			selecciona Perfil Infantil. Cuando: Carga el sitio web. 		                       |  			Entonces: se muestra 			información adecuada a su rango etario. Terminado: El usuario 			ingresa al perfil seleccionado. 		                                                                    |
 |  			**N.º 7** Yo 			como usuario menor quiero tener acceso a material "Gamificado". 			 Para: aumentar mi conocimiento gradualmente sin sentirme 			frustrado 		            |  			Dado: que el usuario 			selecciona material Gamificado. Cuando: Carga la interfaz. 		                    |  			Entonces: la web muestra 			juego y videos sobre virus Covid-19. Terminado: El usuario ingresa 			a la opción de actividades interactiva. 		                                                   |
 |  			**N.º 8** Yo 			como usuario menor quisiera poder divertirme mientras aprendo 			sobre el covid-19. 		                                                               |  			Dado: que el usuario 			selecciona jugos. Cuando: Carga la interfaz. 		                                  |  			Entonces: el usuario puede 			iniciar su aprendizaje a través del juego. Terminado: El usuario 			realiza actividades interactivas mientras aprende y se divierte.  			   			 		                     |
+
+### 3. Prototipo de Baja Fidelidad
+![Prototipo de baja fidelidad](src/Img/bajafidelidad.jpeg)
+
+
+### 4. Prototipo de Alta Fidelidad
+![Prototipo de Alta fidelidad](src/Img/figma1.png)
+![Prototipo de Alta fidelidad](src/Img/figma2.png)
+![Prototipo de Alta fidelidad](src/Img/figma3.png)
+![Prototipo de Alta fidelidad](src/Img/figma4.png)
+
+
 
 ![Footer](src/Img/footerHootieHoo.jpg)
 **Autoras:** Alejandra Colicheo / Dalia García / Yosliana Aguilar
