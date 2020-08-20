@@ -11,7 +11,13 @@ En el siguiente diagrama reconocemos las principales funciones que debe tener nu
 ![Prototipo de baja fidelidad](src/Img/niños.jpeg)
 ![Prototipo de baja fidelidad](src/Img/adultos.jpeg)
 
-### 3. Historias de Usuario
+### 3. Prototipo de Alta Fidelidad
+![Prototipo de Alta fidelidad](src/Img/figma1.png)
+![Prototipo de Alta fidelidad](src/Img/figma2.png)
+![Prototipo de Alta fidelidad](src/Img/figma3.png)
+![Prototipo de Alta fidelidad](src/Img/figma4.png)
+
+### 4. Historias de Usuario
 
 |                                                                   			**Historias de Usuarios** 		                                                                  |                                      			**Criterio de Aceptación** 		                                     |                                                                                			**Criterios de Terminado** 		                                                                              |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
