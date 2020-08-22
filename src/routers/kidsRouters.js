@@ -24,6 +24,7 @@ export const KidsRouters = () => {
           <Route path='/quiz' component= {kidsQuiz} />
           <Route path='/games' component= {kidsGame} />
           <Route path="/videos" component= {kidsVideos} />
+          
         </Switch>
       </div>
     </Router>

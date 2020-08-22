@@ -4,11 +4,9 @@ import { AppRouter } from './routers/router';
 
 
 
-
 function App() {
   return (
     <div className="App">
-      
 
     <AppRouter />
  

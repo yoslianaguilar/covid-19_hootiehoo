@@ -10,6 +10,7 @@ import { AdultNews } from "../views/adultNews";
 import { AdultMaterialDownload } from "../views/materialDownload";
 
 
+
 export const AdultRouters = () => {
   return (
     <Router>
@@ -20,9 +21,9 @@ export const AdultRouters = () => {
           <Link to="/materialDownload">Material Descargable</Link>
         </nav>
         <Switch>
-          <Route path='/adultTips' component= {PsicologicosTips} />
-          <Route path='/adultNews' component= {AdultNews} />
-          <Route path="/materialDownload" component= {AdultMaterialDownload} />
+          <Route exact path='/adultTips' component= {PsicologicosTips} />
+          <Route exact path='/adultNews' component= {AdultNews} />
+          <Route exact path="/materialDownload" component= {AdultMaterialDownload} />
         </Switch>
       </div>
     </Router>
