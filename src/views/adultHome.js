@@ -1,6 +1,7 @@
 import React from 'react';
 import {AdultRouters} from '../routers/adultRouters'
 
+
 export const AdultHome = () =>{
   return(
     <div>
