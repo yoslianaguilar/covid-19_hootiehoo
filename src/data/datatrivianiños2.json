@@ -1,0 +1,69 @@
+{ 
+    "questions":[
+      {
+        "description": "¿Es la enfermedad por coronavirus (COVID-19) lo mismo que la gripe?",
+        "answers":[
+          {
+            "description": "Si",
+            "isCorrect": false,
+            "img": "url"
+          }, 
+          {
+            "description": "No",
+            "isCorrect": true,
+            "img":"url"
+          }          
+        ]
+      },
+      {
+        "description": "¿Puede la enfermedad por coronavirus (COVID-19) transmitirse tanto en temperaturas cálidas como frías?",
+        "answers":[
+          {
+            "description": "Si",
+            "isCorrect": true,
+            "img":"url"
+          }, 
+          {
+            "description": "No",
+            "isCorrect": false,
+            "img":"url"
+          }                 
+        ]
+      },
+      {
+        "description": "¿Pueden las cartas, los productos y los paquetes estar contaminados por el virus causante del coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "Si",
+            "isCorrect": true,
+            "img":"url"
+          }, 
+          {
+            "description": "No",
+            "isCorrect": false,
+            "img":"url"
+          }     
+        ]
+      },
+      {
+        "description": "¿Durante cuánto tiempo deberías lavarte las manos para eliminar la enfermedad por coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "5 segundos",
+            "isCorrect": false,
+            "img":"url"
+          }, 
+          {
+            "description": "15 segundos",
+            "isCorrect": false,
+            "img":"url"
+          },  
+          {
+            "description": "20 segundos",
+            "isCorrect": true,
+            "img":"url"
+          }         
+        ]
+      }
+    ]
+  }
