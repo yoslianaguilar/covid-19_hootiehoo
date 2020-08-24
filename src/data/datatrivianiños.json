@@ -1,0 +1,74 @@
+{ 
+    "questions":[
+      {
+        "description": "¿Cómo se transmite la enfermedad por coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "Por las gotas de la respiración que se expulsan al toser y estornudar",
+            "isCorrect": false,
+            "img": "url"
+          }, 
+          {
+            "description": "Al tocar superficies contaminadas con el virus y, a continuación, tocarse la cara",
+            "isCorrect": false,
+            "img":"url"
+          }, 
+          {
+            "description": "Las dos",
+            "isCorrect": true,
+            "img":"url"
+          }          
+        ]
+      },
+      {
+        "description": "¿Puede mi mascota contagiarme la enfermedad por coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "Si",
+            "isCorrect": false,
+            "img":"url"
+          }, 
+          {
+            "description": "No",
+            "isCorrect": true,
+            "img":"url"
+          }                 
+        ]
+      },
+      {
+        "description": "¿A quién afecta la enfermedad por coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "A las personas de edad avanzada.",
+            "isCorrect": false,
+            "img":"url"
+          }, 
+          {
+            "description": "A los jóvenes",
+            "isCorrect": false,
+            "img":"url"
+          },
+          {
+            "description": "A todo el mundo",
+            "isCorrect": true,
+            "img":"url"
+          }        
+        ]
+      },
+      {
+        "description": "¿Existe una vacuna o un medicamento específico para prevenir o tratar la enfermedad por coronavirus (COVID-19)?",
+        "answers":[
+          {
+            "description": "Si",
+            "isCorrect": false,
+            "img":"url"
+          }, 
+          {
+            "description": "No",
+            "isCorrect": true,
+            "img":"url"
+          }         
+        ]
+      }
+    ]
+  }
