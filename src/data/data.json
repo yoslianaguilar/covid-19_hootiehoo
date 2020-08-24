@@ -1,0 +1,104 @@
+{ 
+  "questions":[
+    {
+      "description": "¿El nuevo coronavirus responsable del brote se llama?",
+      "answers":[
+        {
+          "description": "COVID-19",
+          "isCorrect": false,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSg4deEYZZbJxmZU6r3SzmkjYvCF-PP4JDJaw&usqp=CAU"
+        }, 
+        {
+          "description": "SARS-CoV-2",
+          "isCorrect": true,
+          "img":"url"
+        }, 
+        {
+          "description": "2019-nCoV",
+          "isCorrect": false,
+          "img":"url"
+        },
+        {
+          "description": "MERS-CoV-2",
+          "isCorrect": false,
+          "img":"url"
+        }           
+      ]
+    },
+    {
+      "description": "¿Los científicos creen que la COVID-19 se transmite principalmente por:?",
+      "answers":[
+        {
+          "description": "Gotitas respiratorias que pasan de una persona a otra",
+          "isCorrect": true,
+          "img":"url"
+        }, 
+        {
+          "description": "Contacto con mascotas o animales infectados",
+          "isCorrect": true,
+          "img":"url"
+        },
+        {
+          "description": "Envases de alimentos y otras superficies contaminadas",
+          "isCorrect": false,
+          "img":"url"
+        },
+        {
+          "description": "Todas las anteriores",
+          "isCorrect": false,
+          "img":"url"
+        }           
+      ]
+    },
+    {
+      "description": "¿La COVID-19 puede causar una variedad de síntomas que van de leves a potencialmente fatales. En general, estos tres se asocian con la enfermedad:?",
+      "answers":[
+        {
+          "description": "Fiebre, diarrea, molestia en el pecho",
+          "isCorrect": true,
+          "img":"url"
+        }, 
+        {
+          "description": "Tos, dificultad para respirar, disminución del sentido del olfato",
+          "isCorrect": false,
+          "img":"url"
+        },
+        {
+          "description": "Fiebre, tos, dificultad para respirar",
+          "isCorrect": true,
+          "img":"url"
+        },
+        {
+          "description": "Tos, dolor en el pecho, diarrea",
+          "isCorrect": false,
+          "img":"url"
+        }           
+      ]
+    },
+    {
+      "description": "Para proteger tu salud y la de los demás, debes:",
+      "answers":[
+        {
+          "description": "Lavarte las manos con frecuencia y evitar tocarte la cara",
+          "isCorrect": true,
+          "img":"url"
+        }, 
+        {
+          "description": "Limpiar y desinfectar todos los días las superficies que se tocan a menudo, como los picaportes",
+          "isCorrect": false,
+          "img":"url"
+        },
+        {
+          "description": "Evitar el contacto con personas que están enfermas y practicar el distanciamiento social",
+          "isCorrect": false,
+          "img":"url"
+        },
+        {
+          "description": "Todas las anteriores",
+          "isCorrect": true,
+          "img":"url"
+        }           
+      ]
+    }
+  ]
+}
