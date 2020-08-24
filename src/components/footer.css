@@ -1,0 +1,31 @@
+
+/* .footer {
+    width: 100%;
+    MIN-HEIGHT: 300PX;
+} */
+
+.footer1 {
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: #572A99;
+    color : white;
+    text-align:center;
+    align-content:center;   /* alinea verticalmente */
+    justify-content:center; /*alinea horizontalmente */
+}
+
+    .footer2 {
+        background-color: #72BAEC; ;
+        grid-template-columns: 1fr;
+
+    }
+    
+
+.footer-text {
+    text-align:center;
+    align-items:center;   /* alinea verticalmente */
+    justify-content:left; /*alinea horizontalmente */
+    align-content:center;
+    margin-top:5px;
+    padding-top:5px;
+}
