@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { AppRouter } from './routers/router';
+import { Footer } from './components/footer';
 
 
 
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
 
     <AppRouter />
- 
+    <Footer />
     </div>
   );
 }

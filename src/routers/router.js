@@ -18,6 +18,7 @@ import { kidsVideos } from "../views/kidsVideos";
 import { AdultHome } from '../views/adultHome';
 import { KidsHome } from '../views/kidsHome';
 
+  
 export const AppRouter = () => {
   return (
     <React.Fragment>
