@@ -1,9 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter as Router, Link, Switch, Route
-} from "react-router-dom";
-import { AdultHome } from '../views/adultHome';
-import { KidsHome } from '../views/kidsHome';
+import { Link } from "react-router-dom";
+
 
 export const SelectionHome = () =>{
   return(
@@ -13,14 +10,10 @@ export const SelectionHome = () =>{
     material descargable, videos y mucho más.</p>  
 
     <div className='buttons-cont'>
-      <Router>
+      
         <Link to='/adultHome'><button>Adulto</button></Link>
         <Link to='/kidsHome'><button>Niño</button></Link>
-        <Switch>
-          <Route exact path='/adultHome' component= {AdultHome}/>
-          <Route exact path='/kidsHome' component= {KidsHome} />
-        </Switch>
-      </Router>
+       
       </div>
     </div>
   )
