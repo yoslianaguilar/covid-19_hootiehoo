@@ -7,7 +7,7 @@ import Personaje21 from '../Img/Personaje21.png'
 export const AdultNewsInf = () => {
     return (
         <div>
-        <img class="projectImg" src={Personaje21} alt="project Personaje"></img> Pagina Noticias para los Adultos 
+        <img class="projectImg" src={Personaje21}width='300px' alt="project Personaje"></img> Pagina Noticias para los Adultos 
         <div>
         <h3>Infórmate aquí sobre la última cifra oficial entregados por el Ministerio de Salud</h3>
         <a href="https://www.gob.cl/coronavirus/cifrasoficiales/" ><img class="projectImg" src={gob} alt="project gob"></img></a>      
