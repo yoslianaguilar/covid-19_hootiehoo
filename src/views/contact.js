@@ -1,7 +1,7 @@
 import React from 'react';
-import './Inicio.css';
+import '../css/contact.css';
 
-export const ContactsPage = () =>{
+export const ContactPage = () =>{
   return(
     <div className ='contact'>
       <h3>Contacto</h3> 

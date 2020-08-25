@@ -1,0 +1,21 @@
+
+.contact {
+  display:flex;
+  flex-direction: column; 
+  text-align:center;
+  justify-items: center;
+  padding:20px
+  }
+  
+  h3 {
+      margin-top:10px;
+      align-items:center;  
+       /* alinea verticalmente */
+      justify-items:center; 
+      /*alinea horizontalmente */
+  }
+  
+  .text {
+      padding: 20px;
+  }
+  

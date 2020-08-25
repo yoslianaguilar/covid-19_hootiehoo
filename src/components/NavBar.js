@@ -33,7 +33,7 @@ export const NavBar = () => (
             <Nav className='ml-auto'>
                 <Nav.Item><Nav.Link href='/'>Inicio</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href='/About'>Nosotros</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/Contacts'>Contacto</Nav.Link></Nav.Item><Nav.Item>
+                    <Nav.Item><Nav.Link href='/Contact'>Contacto</Nav.Link></Nav.Item><Nav.Item>
                     </Nav.Item>
             </Nav>
          </Navbar.Collapse>
