@@ -1,5 +1,5 @@
 import React from 'react';
-import './Inicio.css';
+import '../css/home.css';
 
 export const AboutPage = () =>{
   return(

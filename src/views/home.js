@@ -2,12 +2,12 @@ import React from 'react';
 import { SelectionHome } from '../components/selectionHome.jsx';
 import liga from "../Img/GAV_Personaje10.png";
 import virus from "../Img/GAV_Personaje02.png";
-import './Inicio.css';
+import '../css/home.css';
 
 export const HomePage = () =>{
   return(
 
-     <div className ='inicio'>
+     <div className ='home'>
            <h3>¡Ganémosle al virus!</h3> 
 
      <div className = 'img-cont'>
