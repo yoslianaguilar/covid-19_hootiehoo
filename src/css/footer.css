@@ -1,0 +1,26 @@
+.footer1 {
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    background-color: #572A99;
+    color : white;
+    text-align:center;
+    align-content:center;   /* alinea verticalmente */
+    justify-content:center; /*alinea horizontalmente */
+}
+
+    .footer2 {
+        background-color: #72BAEC; ;
+        grid-template-columns: 1fr;
+    }
+    
+
+.footer-text {
+    justify-self:left; /*alinea horizontalmente */
+    margin-top:5px;
+    padding-top:5px;
+    padding-left:20px;
+}
+
+.favicon-footer {
+    margin-top: 11px;;
+}

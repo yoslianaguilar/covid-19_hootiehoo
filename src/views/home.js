@@ -1,13 +1,26 @@
 import React from 'react';
 import { SelectionHome } from '../components/selectionHome.jsx';
-
-import './Inicio.css';
+import liga from "../Img/GAV_Personaje10.png";
+import virus from "../Img/GAV_Personaje02.png";
+import '../css/home.css';
 
 export const HomePage = () =>{
   return(
-    <div>
-     
-     <SelectionHome />
+
+     <div className ='home'>
+           <h3>¡Ganémosle al virus!</h3> 
+
+     <div className = 'img-cont'>
+      <img src={virus} className='img-virus' alt="Virus" width='95px'/> 
+      <p className='text'>Bienvenido! Aquí encontrarás información relevante sobre el Covid-19, actividades para niños, consejos,
+         material descargable, videos y mucho más.</p> 
+    <img src={liga} className='img-liga' alt="Liga contra el virus" width='200px'/> 
     </div>
-  )
-}
+
+    <div className='btn.content'>
+     <SelectionHome />
+     </div>
+
+     </div>
+  );
+  }
