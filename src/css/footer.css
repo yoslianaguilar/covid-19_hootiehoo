@@ -13,11 +13,14 @@
         grid-template-columns: 1fr;
     }
     
+
 .footer-text {
-    text-align:center;
-    align-items:center;   /* alinea verticalmente */
-    justify-content:left; /*alinea horizontalmente */
-    align-content:center;
+    justify-self:left; /*alinea horizontalmente */
     margin-top:5px;
     padding-top:5px;
+    padding-left:20px;
+}
+
+.favicon-footer {
+    margin-top: 11px;;
 }

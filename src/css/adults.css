@@ -1,7 +1,7 @@
 /* MOBILE FIRST */
 
-.home {
-display:flex;
+.adults {
+display:grid;
 flex-direction: column; 
 text-align:center;
 justify-content: center;
@@ -9,23 +9,40 @@ justify-items: center;
 padding:20px
 }
 
+.news {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+    padding:20px
+    }
+    
+.adult-routes{
+    display:grid;
+}
+
+link {
+    padding:40px;
+}
+
+
+
+
 h3 {
     margin-top:10px;
-    align-items:center;  
-     /* alinea verticalmente */
-    justify-items:center; 
-    /*alinea horizontalmente */
+    align-items:center;   /* alinea verticalmente */
+    justify-items:center; /*alinea horizontalmente */
 }
 
 .text {
     padding: 20px;
 }
 
-.btn-cont {
+.buttons-cont {
 display:grid;
 grid-template-columns: 2fr 2fr; 
 text-align: center;
-align-items:center;
 }
 
 button {
@@ -66,7 +83,7 @@ button {
     .inicio {
     display:grid;
     }
-    .container {
+    .container div {
     min-height:320px
     }
    .img-cont {
@@ -81,13 +98,13 @@ button {
     h3 {
         margin-top:30px;
 }
- button {
+/* button {
     width: 100%;
-} 
- .img-virus {
+} */
+.img-virus {
     width:170px;
 }
 .img-liga {
       width:320px;
  }
-} 
+}

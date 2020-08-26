@@ -4,8 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { AboutPage } from "../views/abouts";
-import {ContactsPage} from '../views/contacts'
+import { AboutPage } from "../views/about";
+import { ContactPage } from '../views/contact'
 import { HomePage} from '../views/home'
 import { NavBar } from '../components/NavBar';
 import { Layout } from '../components/Layout';
@@ -23,13 +23,12 @@ export const AppRouter = () => {
   return (
     <React.Fragment>
         <NavBar />
-   
     <Layout>
     <Router>
 
         <Switch>
-          <Route path='/about/us' component= {AboutPage} />
-          <Route path='/contacts' component= {ContactsPage} />
+          <Route path='/about' component= {AboutPage} />
+          <Route path='/contact' component= {ContactPage} />
           <Route exact path="/" component={HomePage} />
 
           <Route path='/adultHome' component= {AdultHome}/>
