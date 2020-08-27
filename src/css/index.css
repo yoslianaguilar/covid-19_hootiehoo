@@ -1,3 +1,6 @@
+/* MOBILE FIRST */
+/* 
+@media ( max-width: 600px ){ */
 body {
   background-color:rgb(255, 255, 255);
   color:#2c72a5; 
@@ -9,48 +12,98 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* html, body, .Login-component {
-  height: 100%;
-} */
-
 @font-face {
   font-family: 'Rounded Elegance';
   src: url('http://www.fontsaddict.com/fontface/rounded-elegance.ttf');
 }
 
- .container{
- min-height:501px;
-}  
+ /* .container, div {
+   padding:0px;
+}   */
 
 p, a {
-  font-size:20px;
+  font-size:18px;
 }
 
-/* TABLET */
+h3 {
+  text-align:center;
+}
 
-@media ( min-width: 601px ) and ( max-width: 1023px ){
-  .container{
-    min-height:901px;
-   }  
-  .about {
+
+
+/* TABLET */
+@media (min-width: 601px) and (max-width: 1023px){
+
+  .container {
+      height: 923px;
+  }
+  .inicio {
   display:grid;
   }
- 
+
+  .info-cont {
+    width: 107%;
+  }
+  .contact-info {
+    width: 107%;
+  }
  .img-cont {
   grid-template-columns: 1fr 1fr 1fr;
  }
  .img-home {
   width:400px;
   }
+
+}
+
+
+/* TABLET PRO */
+@media (min-width: 1024px) and (min-height: 1036px) {
+
+  .inicio {
+  display:grid;
+  }
+  .container {
+ padding:0px;
+ height: 1265px;
+  }
+  .contact-info {
+    width:106%;
+  }
 }
 
 
 /* DESKTOP */
+@media (min-width: 1025px) {
 
-@media (min-width: 1024px) {
-  
-  .container div {
-height:90%;
+  .container {
+      padding:0px;
+      height: 836px;
   }
- 
+ .img-cont {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top:20px; 
+ }
+ .buttons-cont {
+  display:grid;
+  grid-template-columns: 2fr 2fr;
+  text-align: center;
+  }
+  h3 {
+      margin-top:50px;
 }
+button {
+  width: 100%;
+} 
+.img-virus {
+  width:170px;
+  margin-right:100px;
+}
+.img-liga {
+    width:320px;
+}
+.img-puma {
+  width:170px;
+}
+
+} 

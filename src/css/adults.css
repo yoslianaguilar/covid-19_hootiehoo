@@ -1,33 +1,11 @@
-/* MOBILE FIRST */
-
 .adults {
-display:grid;
+display:flex;
 flex-direction: column; 
 text-align:center;
 justify-content: center;
 justify-items: center;
-padding:20px
+padding:10px;
 }
-
-.news {
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    text-align:center;
-    justify-content: center;
-    justify-items: center;
-    padding:20px
-    }
-    
-.adult-routes{
-    display:grid;
-}
-
-link {
-    padding:40px;
-}
-
-
-
 
 h3 {
     margin-top:10px;
@@ -41,8 +19,10 @@ h3 {
 
 .buttons-cont {
 display:grid;
-grid-template-columns: 2fr 2fr; 
+grid-template-rows: 1fr; 
+grid-gap:10px;
 text-align: center;
+padding:20px;
 }
 
 button {
@@ -51,6 +31,7 @@ button {
    color:white;
    border-radius: 30px;
    width: 80%;
+   margin:2px;
 }
 
 .img-cont {
@@ -61,50 +42,64 @@ button {
 }
  
 
-/* TABLET */
 
-@media (min-width: 601px) {
-    .inicio {
+.tips {
     display:grid;
+    flex-direction: column; 
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+    padding:20px
     }
-   
-   .img-cont {
-    grid-template-columns: 1fr 1fr 1fr;
-   }
-   .img-home {
-    width:400px;
+    
+    /* .news {
+        display:grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        text-align:center;
+        justify-content: center;
+        justify-items: center;
+        padding:20px
+        } */
+        
+    .adult-routes{
+        display:grid;
     }
-}
-
-
-/* DESKTOP */
-
-@media (min-width: 1024px) {
-    .inicio {
-    display:grid;
+    
+    link {
+        padding:0px;
     }
-    .container div {
-    min-height:320px
+    
+    
+    
+    
+    h3 {
+        margin-top:10px;
+        align-items:center;   /* alinea verticalmente */
+        justify-items:center; /*alinea horizontalmente */
     }
-   .img-cont {
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top:20px; 
-   }
-   .buttons-cont {
-    display:grid;
-    grid-template-columns: 2fr 2fr;
+    
+    .text {
+        padding: 20px;
+    }
+    
+    .buttons-cont {
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr; 
     text-align: center;
     }
-    h3 {
-        margin-top:30px;
-}
-/* button {
-    width: 100%;
-} */
-.img-virus {
-    width:170px;
-}
-.img-liga {
-      width:320px;
- }
-}
+    
+      button {
+       background-color:#572A99;
+       padding: 10px;
+       color:white;
+       border-radius: 30px;
+       width: 80%;
+    }
+    
+    .img-cont {
+        display:grid;
+        padding:20px;
+        align-items:center;   /* alinea verticalmente */
+        justify-items:center; /*alinea horizontalmente */
+    }
+     
