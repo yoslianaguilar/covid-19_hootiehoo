@@ -6,11 +6,12 @@ export const ContactPage = () =>{
   return(
     <div className ='contact'>
       <div>
-      <h3>¡Gamificate ahora!</h3> 
+           <p class='title-cont'></p>
+      <h3>¡Gamifícate ahora!</h3> 
       <p class='contact-text1'>
 Nos movemos por una tecnología con sentido, que conecte y desarrolle a las personas y empresas en alcanzar su máximo potencial a nivel global.</p>
       </div>
-      <div className ='info-cont'>
+      <div className ='contact-info'>
 
       <div className ='information'>
       <img src={icono1} className='icono1' alt="icono" width='50px'/> 

@@ -16,11 +16,10 @@
 
 .footer-text {
     justify-self:left; /*alinea horizontalmente */
-    margin-top:5px;
-    padding-top:5px;
+    margin:5px;
     padding-left:20px;
 }
 
 .favicon-footer {
-    margin-top: 11px;;
+    margin: 5px;;
 }

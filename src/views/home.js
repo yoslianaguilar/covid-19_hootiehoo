@@ -11,13 +11,16 @@ export const HomePage = () =>{
            <h3>¡Ganémosle al virus!</h3> 
 
      <div className = 'img-cont'>
-      <img src={virus} className='img-virus' alt="Virus" width='95px'/> 
-      <p className='text'>Bienvenido! Aquí encontrarás información relevante sobre el Covid-19, actividades para niños, consejos,
+     <img src={liga} className='img-liga' alt="Liga" width='200px'/> 
+      <p className='text, welcome'>Bienvenido! Aquí encontrarás información relevante sobre el Covid-19, actividades para niños, consejos,
          material descargable, videos y mucho más.</p> 
-    <img src={liga} className='img-liga' alt="Liga contra el virus" width='200px'/> 
-    </div>
+ 
+    <img src={virus} className='img-virus' alt="Virus" width='95px'/> 
+   
 
+</div>
     <div className='btn.content'>
+    {/* <h3 className='ingresar'>Soy</h3> */}
      <SelectionHome />
      </div>
 

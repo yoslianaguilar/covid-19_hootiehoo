@@ -4,14 +4,16 @@ import { Link } from "react-router-dom";
 export const KidsRouters = () => {
   return (
    
-      <div>
-        <nav>
-          <Link to="/quiz">Trivias</Link>
-          <Link to="/games">Juegos</Link>
-          <Link to="/videos">Videos</Link>
-        </nav>
-        
-      </div>
+      <div className='buttons-cont' >
+      <nav>
+        <Link to="/quiz"><button>Trivias</button></Link>
+        <Link to="/games"><button>Juegos</button></Link>
+        <Link to="/videos"><button>Videos</button></Link>
+      </nav>
+     
+    </div>
     
   );
 }
+
+
