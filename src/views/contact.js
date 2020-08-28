@@ -6,7 +6,7 @@ export const ContactPage = () =>{
   return(
     <div className ='contact'>
       <div>
-           <p class='title-cont'></p>
+           <p class='title'></p>
       <h3>¡Gamifícate ahora!</h3> 
       <p class='contact-text1'>
 Nos movemos por una tecnología con sentido, que conecte y desarrolle a las personas y empresas en alcanzar su máximo potencial a nivel global.</p>

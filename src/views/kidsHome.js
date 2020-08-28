@@ -22,7 +22,7 @@ export const KidsHome = () =>{
    <div className='images-cont'>
 
    <div className='squad-images'>
-    <img src={puma} className='img-puma' alt="Puma Espuma" width='100px'/> 
+    <img src={puma} className='img-puma' alt="Puma Espuma" width='130px'/> 
     <p>¡Hola amigo/a, soy Puma Espuma, bienvenido!</p>
     <p>¡Te presento a guante, jabón y mascarilla!</p>
     <img src={guante} className='img-guante' alt="Guante" width='70px'/> 

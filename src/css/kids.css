@@ -53,22 +53,21 @@ justify-self:center;
     margin:10px;
 }
 
-/* button {
+ /* button {
    background-color:#572A99;
    padding: 10px;
    color:white;
    border-radius: 30px;
    width: 80%;
-}
+} */
 
- .puma-cont {
+ /* .puma-cont {
 display:grid;
 grid-template-rows:1fr;
-padding:20px;
-}
+padding:10px;
+} */
 
 .img-puma {
-    display: flex;
-    padding: 20px;
+    padding: 10px;
     
-}   */
+}   
