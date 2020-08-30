@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export const Quiz = (props) => {
   const handleOnClickAnswer = (isCorrect) =>{
     const onOk = props.onOk
@@ -12,7 +13,9 @@ export const Quiz = (props) => {
   }
   const questions = props.questions || [];
   return (
+    
     <div className='quizContainer'>
+   
       {questions.map((question,qindex)=>{
         return (
           <div key={`question-${qindex}`}  className='question'>

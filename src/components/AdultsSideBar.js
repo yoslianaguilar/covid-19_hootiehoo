@@ -18,7 +18,7 @@ color: white;
  }
 `;
 
-export const SideBar = () => (
+export const AdultsSideBar = () => (
     <Styles>
         <Navbar expand='lg'>
             
@@ -31,9 +31,11 @@ export const SideBar = () => (
          <Navbar.Collapse id='Basic-navbar-nav'>
 
             <Nav className='ml-auto'>
-                <Nav.Item><Nav.Link href='/'>PRUEBA</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/About'>HOLA</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/Contact'>CHAO</Nav.Link></Nav.Item><Nav.Item>
+                
+            <Nav.Item><Nav.Link href='/adultsHome'>Adultos</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href='/AdultsTips'>Consejos</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href='/AdulstNews'>Noticias</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href='/MaterialDownload'>Material descargable</Nav.Link></Nav.Item><Nav.Item>
                     </Nav.Item>
             </Nav>
          </Navbar.Collapse>

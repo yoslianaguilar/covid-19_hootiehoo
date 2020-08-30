@@ -12,12 +12,17 @@ import '../css/kids.css';
 
 export const KidsHome = () =>{
   return(
+    
     <div className='kids'>
+  
+       <KidsRouters />
 
    <div className='title'>
+ 
    <h3>Niños</h3>
    </div>
-   <KidsRouters />
+  
+  
 
    <div className='images-cont'>
 
