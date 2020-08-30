@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import SideBar from 'components/SideBar'
 
 const Styles = styled.div`
 .navbar {
@@ -18,10 +19,10 @@ color: white;
  }
 `;
 
-
 export const AdultsRouters = () => (
 
 <Styles>
+<SideBar/>
         <Navbar expand='lg'>
        
            <Navbar.Brand href='/'> 

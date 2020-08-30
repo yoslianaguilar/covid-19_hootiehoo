@@ -18,7 +18,6 @@ import { kidsVideos } from "../views/kidsVideos";
 import { AdultHome } from '../views/adultHome';
 import { KidsHome } from '../views/kidsHome';
 
-  
 export const AppRouter = () => {
   return (
     <React.Fragment>
@@ -30,6 +29,7 @@ export const AppRouter = () => {
           <Route path='/about' component= {AboutPage} />
           <Route path='/contact' component= {ContactPage} />
           <Route exact path="/" component={HomePage} />
+
 
           <Route path='/adultHome' component= {AdultHome}/>
           <Route path='/kidsHome' component= {KidsHome} />
