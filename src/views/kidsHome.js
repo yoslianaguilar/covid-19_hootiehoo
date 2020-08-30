@@ -1,5 +1,5 @@
 import React from 'react';
-import {KidsRouters} from '../routers/kidsRouters';
+import { KidsRouters } from '../routers/kidsRouters';
 import puma from '../Img/GAV_Personaje03.png';
 import guante from '../Img/GAV_Personaje06.png';
 import jabon from '../Img/GAV_Personaje04.png';

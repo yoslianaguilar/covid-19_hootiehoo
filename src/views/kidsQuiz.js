@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../data/data.json';
 import { Quiz } from '../components/Quiz';
-import { KidsSideBar } from '../components/KidsSideBar';
+import { KidsRouters } from '../routers/kidsRouters';
 
 export const kidsQuiz = () =>{
   const onOk = () =>{
@@ -13,7 +13,7 @@ export const kidsQuiz = () =>{
   }
   return(
     <div>
-          <KidsSideBar />
+          <KidsRouters />
     Pagina de Trivias para los Niños   
       <Quiz onOk={onOk} onError={onError} questions={data.questions}/>
 

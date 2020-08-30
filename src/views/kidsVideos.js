@@ -1,10 +1,10 @@
 import React from 'react';
-import { KidsSideBar } from '../components/KidsSideBar';
+import { KidsRouters } from '../routers/kidsRouters';
 
 export const kidsVideos = () =>{
   return(
     <div>
-           <KidsSideBar /> 
+    <KidsRouters />
     Pagina de Videos para los Niños 
    
     </div>

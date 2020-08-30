@@ -18,7 +18,7 @@ import { AdultMaterialDownload } from "../views/materialDownload";
 import { kidsQuiz } from "../views/kidsQuiz";
 import { kidsGame } from "../views/kidsGame";
 import { kidsVideos } from "../views/kidsVideos";
-import { AdultHome } from '../views/adultHome';
+import { AdultsHome } from '../views/adultsHome';
 import { KidsHome } from '../views/kidsHome';
 
 export const AppRouter = () => {
@@ -36,9 +36,10 @@ export const AppRouter = () => {
           
 
 
-          <Route path='/adultHome' component= {AdultHome}/>
+          <Route path='/adultsHome' component= {AdultsHome}/>
           <Route path='/kidsHome' component= {KidsHome} />
 
+          <Route path='/adultsHome' component= {AdultsHome} />
           <Route  path='/adultTips' component= {PsicologicosTips} />
           <Route  path='/adultNews' component= {AdultNews} />
           <Route  path="/materialDownload" component= {AdultMaterialDownload} />

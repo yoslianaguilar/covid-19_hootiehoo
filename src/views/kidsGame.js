@@ -1,12 +1,12 @@
 import React from 'react';
 import { GameJump } from '../components/GameJump.jsx'
 import { Puzzle } from '../components/Puzzle.jsx'
-import { KidsSideBar } from '../components/KidsSideBar';
+import { KidsRouters } from '../routers/kidsRouters';
 
 export const kidsGame = () =>{
   return(
     <div>
-          <KidsSideBar />
+          <KidsRouters />
     Pagina de Juegos para los Niños  
     <GameJump/> 
     <Puzzle/>      
