@@ -9,14 +9,12 @@ export const kidsQuiz = () =>{
   }
   const onError = () =>{
     alert("Respuesta Incorrecta")
-    
   }
   return(
-    <div>
+    <div className ='quiz'>
           <KidsRouters />
-    Pagina de Trivias para los Niños   
+    <h3>Trivias</h3>
       <Quiz onOk={onOk} onError={onError} questions={data.questions}/>
-
     </div>
   )
 }

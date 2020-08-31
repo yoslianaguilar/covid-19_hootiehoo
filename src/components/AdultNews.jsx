@@ -3,29 +3,29 @@ import gob from '../Img/gob.png'
 import establecimientos from '../Img/establecimientos.png'
 import saludresponde from '../Img/saludresponde.png'
 import Personaje21 from '../Img/Personaje21.png'
+import '../css/adults.css';
 
 export const AdultNewsInf = () => {
     return (
-        <div className='news-content'>
-
-        <div className='news1'>
-        <h3>Noticias</h3>
-        <img class="projectImg" src={Personaje21}width='200px' alt="project Personaje"></img> 
+        <div className='news'>
+<h3>Noticias</h3>
+        <div className='newsbox'>
+        <img class="projectImg" src={Personaje21} width='120px' alt="project Personaje"></img> 
         </div>
 
-        <div className='news2'>
-        <h2>Infórmate aquí sobre la última cifra oficial entregados por el Ministerio de Salud</h2>
-        <a href="https://www.gob.cl/coronavirus/cifrasoficiales/" ><img class="projectImg" src={gob} alt="project gob"></img></a>      
+        <div className='newsbox'>
+        <h5>Infórmate aquí sobre la última cifra oficial entregados por el Ministerio de Salud</h5>
+        <a href="https://www.gob.cl/coronavirus/cifrasoficiales/" ><img class="projectImg" src={gob} width='200px' alt="project gob"></img></a>      
         </div>
 
-        <div className='news3'>
-        <h2>Si deseas conocer la ubicación del establecimiento de salud más cercano a tu domicilio puedes buscarlo pinchando en la siguiente imagen </h2>
-        <a href="https://saludresponde.minsal.cl/establecimientos-de-salud/" ><img class="projectImg" src={establecimientos} alt="project establecimientos"></img></a>      
+        <div className='newsbox'>
+        <h5>Si deseas conocer la ubicación del establecimiento de salud más cercano a tu domicilio puedes buscarlo pinchando en la siguiente imagen </h5>
+        <a href="https://saludresponde.minsal.cl/establecimientos-de-salud/" ><img class="projectImg" src={establecimientos} width='200px' alt="project establecimientos"></img></a>      
         </div>
 
-        <div className='news4'>
-        <h2>Tienes síntomas y no sabes que hacer, donde llamar, a donde ir o simplemente necesitas orientación ingresa Aquí </h2>
-        <a href="https://saludresponde.minsal.cl/" ><img class="projectImg" src={saludresponde} alt="project establecimientos"></img></a>      
+        <div className='newsbox'>
+        <h5>Tienes síntomas y no sabes que hacer, donde llamar, a donde ir o simplemente necesitas orientación ingresa Aquí </h5>
+        <a href="https://saludresponde.minsal.cl/" ><img class="projectImg" src={saludresponde} width='200px' alt="project establecimientos"></img></a>      
         </div>
         
        </div>

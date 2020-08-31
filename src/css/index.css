@@ -248,7 +248,15 @@ p, a {
  .title, h3 {
   font-size:32px;
 }
-p, a {
-  font-size:26px;
+
+/* Download */
+.download {
+  margin-bottom:20px;
 }
+
+ .download, button a{
+ width:70%;
+ font-size:20px;
+}
+
 }

@@ -3,10 +3,9 @@ import { KidsRouters } from '../routers/kidsRouters';
 
 export const kidsVideos = () =>{
   return(
-    <div>
+    <div className ='videos'>
     <KidsRouters />
-    Pagina de Videos para los Niños 
-   
+    <h3>Videos</h3>
     </div>
   )
 }
