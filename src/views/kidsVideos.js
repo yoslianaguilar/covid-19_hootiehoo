@@ -1,5 +1,6 @@
 import React from 'react';
 import { KidsRouters } from '../routers/kidsRouters';
+import '../css/kids.css';
 
 export const kidsVideos = () =>{
   return(

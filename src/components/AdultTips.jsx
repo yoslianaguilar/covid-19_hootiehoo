@@ -3,8 +3,8 @@ import React from 'react';
 export const AdultTipsInf = () => {
     return (
         <div>
-        <h1>COVID-19</h1>
-        <h3>Tips psicológicos para adultos:</h3>
+        <h3>COVID-19</h3>
+        <h4>Tips psicológicos para adultos:</h4>
         <p>        
 Si frente al brote de Coronavirus-Covid19 y la necesidad de permanecer confinado en casa para evitar la propagación de contagios, estás sintiendo:
 Ansiedad, Nerviosismo, Agitación, Soledad, Miedo, Angustia, Preocupación, Tristeza o apatía, Ira o enfado.

@@ -3,11 +3,11 @@ import gob from '../Img/gob.png'
 import establecimientos from '../Img/establecimientos.png'
 import saludresponde from '../Img/saludresponde.png'
 import Personaje21 from '../Img/Personaje21.png'
-import '../css/adults.css';
+
 
 export const AdultNewsInf = () => {
     return (
-        <div className='news'>
+        <div>
 <h3>Noticias</h3>
         <div className='newsbox'>
         <img class="projectImg" src={Personaje21} width='120px' alt="project Personaje"></img> 

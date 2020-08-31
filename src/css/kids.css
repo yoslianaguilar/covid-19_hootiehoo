@@ -1,4 +1,4 @@
-.kids, .quiz, .games, .videos{
+.kids, .quiz, .games, .videos {
     display:flex;
     flex-direction: column; 
     text-align:center;
@@ -7,3 +7,6 @@
     padding:20px;
     }
     
+    .games {
+        margin-bottom:30px;
+    }

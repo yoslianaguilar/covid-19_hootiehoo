@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../data/data.json';
 import { Quiz } from '../components/Quiz';
 import { KidsRouters } from '../routers/kidsRouters';
+import '../css/kids.css';
 
 export const kidsQuiz = () =>{
   const onOk = () =>{

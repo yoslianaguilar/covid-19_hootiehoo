@@ -2,6 +2,7 @@ import React from 'react';
 import { GameJump } from '../components/GameJump.jsx'
 import { Puzzle } from '../components/Puzzle.jsx'
 import { KidsRouters } from '../routers/kidsRouters';
+import '../css/kids.css';
 
 export const kidsGame = () =>{
   return(
