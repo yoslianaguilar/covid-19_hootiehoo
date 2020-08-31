@@ -26,7 +26,7 @@ export const KidsHome = () =>{
    <div className='squad-images'>
     <img src={puma} className='img-puma' alt="Puma Espuma" width='130px'/> 
     <p>¡Hola amigo/a, soy Puma Espuma, bienvenido!</p>
-    <p>¡Te presento a guante, jabón y mascarilla!</p>
+    <p>¡Te presento a Guantrini, To-Mask y Jabier Jabón!</p>
     <img src={guante} className='img-guante' alt="Guante" width='70px'/> 
     <img src={jabon} className='img-jabon' alt="Jabón" width='70px'/> 
     <img src={mascarilla} className='img-mascarilla' alt="Mascarilla" width='70px'/> 
@@ -40,9 +40,7 @@ export const KidsHome = () =>{
     <img src={niño} className='img-niña' alt="Niña" width='50px'/> 
     <img src={niña} className='img-niño' alt="Niño" width='45px'/> 
     <img src={liga} className='img-liga' alt="Liga" width='150px'/> 
-    <p>Presiona 'videos' para conocer de nosotros</p>
-    <p>Presiona 'trivia' y comienza a entrenar</p>
-    <p>Presiona 'juegos' y... ¡que comience la acción!</p>
+    <p>Elige entre las opciones de arriba y... ¡que comience la acción!</p>
     </div>
     </div>
     </div>
