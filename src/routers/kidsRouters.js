@@ -1,87 +1,60 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 
-const Styles = styled.div`
-.navbar {
-   background-color: #562a99a8; 
-}
+const NavBarContainer = styled.div`
+position: sticky;
+top: 71px;
+z-index: 1;
 
+@media (max-width: 768px) {
+    top: 62px;
+  }
+.navbar {
+    display:flex;
+    flex-direction:column;
+}
+.mobile-navbar {
+    @media (max-width: 768px) {
+        display: grid; 
+        grid-template-columns: 1fr 70px;
+      }
+}
 .navbar-brand, .navbar-nav .nav-link {
 color: white;
-0
-&:hover {
-    color: black;
-  }
 
+&:hover {
+    color: #ec8313ec;
+  }
  }
+ .navbar2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    grid-gap: 10px;
+    background: #562a99a8;
+    color:white;
+    padding: 5px 0;
+    border-bottom: 2px solid #ec8313ec;
+    border-radius:10px;
+}
+a {
+    color:white;
+}
+
 `;
 
 export const KidsRouters = () => (
-    <Styles>
-        <Navbar expand='lg'>
-            
-           <Navbar.Brand href='/'> 
-            
-           </Navbar.Brand>
 
-        <Navbar.Toggle aría-controls='basic-navbar-nav' />
-
-         <Navbar.Collapse id='Basic-navbar-nav'>
-
-            <Nav className='ml-auto'>
-                
-            <Nav.Item><Nav.Link href='/kidsHome'>Niños</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href='/quiz'>Trivias</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/games'>Juegos</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href='/Videos'>Videos</Nav.Link></Nav.Item><Nav.Item>
-                    </Nav.Item>
-            </Nav>
-         </Navbar.Collapse>
-
-        </Navbar>
-    </Styles>
+    <NavBarContainer>
+         <div className="navbar2">
+        <Link to="/kidsHome">Niños</Link>
+        <Link to="/quiz">Trivias</Link>
+        <Link to="/games">Juegos</Link>
+        <Link to="/Videos">Videos</Link>
+    </div>
+   </NavBarContainer>
 );
 
 
 
-
-
-// const Styles = styled.div`
-// .navbar {
-//    background-color: #562a99a8; 
-// }
-
-// .navbar-brand, .navbar-nav .nav-link {
-// color: white;
-// 0
-// &:hover {
-//     color: black;
-//   }
-
-//  }
-// `;
-
-
-// export const KidsRouters = () => (
-// <Styles>
-//         <Navbar expand='lg'>
-            
-//            <Navbar.Brand href='/'> 
-        
-//            </Navbar.Brand>
-//         <Navbar.Toggle aría-controls='basic-navbar-nav' />
-//          <Navbar.Collapse id='Basic-navbar-nav'>
-
-//             <Nav className='container-fluid h-100'>
-//             <Nav.Item><Nav.Link href='/quiz'>Trivias</Nav.Link></Nav.Item>
-//             <Nav.Item><Nav.Link href='/games'>Juegos</Nav.Link></Nav.Item>
-//             <Nav.Item><Nav.Link href='/videos'>Videos</Nav.Link></Nav.Item>
-      
-//           </Nav>
-//          </Navbar.Collapse>
-
-//         </Navbar>
-//     </Styles>
-// );

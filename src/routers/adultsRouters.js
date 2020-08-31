@@ -1,49 +1,51 @@
-import React from "react";
-import { Nav, Navbar } from 'react-bootstrap';
+import React from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
-const Styles = styled.div`
+const NavBarContainer = styled.div`
+position: sticky;
+top: 71px;
+z-index: 1;
+@media (max-width: 768px) {
+    top: 62px;
+  }
 .navbar {
-   background-color: #562a99a8; 
-   position:fixed;
+    display:flex;
+    flex-direction:column;
+}
+.mobile-navbar {
+    @media (max-width: 768px) {
+        display: grid; 
+        grid-template-columns: 1fr 70px;
+      }
+}
+.navbar2 {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+   grid-gap: 0px;
+   background: #562a99a8;
+   color:white;
+   padding: 8px 0;
+   border-bottom: 2px solid #ec8313ec;
+   border-radius:10px;
+}
+a {
+   color:white;
 }
 
-.navbar-brand, .navbar-nav .nav-link {
-color: white;
-0
-&:hover {
-    color: black;
-  }
-
- }
 `;
 
 export const AdultsRouters = () => (
 
-<Styles>
-
-        <Navbar expand='lg'>
-       
-           <Navbar.Brand href='/'> 
-           </Navbar.Brand>
-        <Navbar.Toggle aría-controls='basic-navbar-nav' />
-      
-         <Navbar.Collapse id='Basic-navbar-nav'>
-      
-
-         <Nav className='container-fluid h-100'>
-         <Nav.Item><Nav.Link href='/adultsHome'>Adultos</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href='/adultTips'>Consejos</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href='/adultNews'>Noticias</Nav.Link></Nav.Item>
-            <Nav.Item><Nav.Link href='/materialDownload'>Material descargable</Nav.Link></Nav.Item>
-   
-          </Nav>
-         </Navbar.Collapse>
-
-
-
-        </Navbar>
-       
-    </Styles>
- 
+    <NavBarContainer>
+         <div className="navbar2">
+        <Link to='/adultsHome'>Adultos</Link>
+        <Link to='/adultTips'>Consejos</Link>
+        <Link to='/adultNews'>Noticias</Link>
+        <Link to='/materialDownload'>Descarga</Link>
+    </div>
+   </NavBarContainer>
 );
+
+
+

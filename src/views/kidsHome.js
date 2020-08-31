@@ -17,15 +17,12 @@ export const KidsHome = () =>{
   
        <KidsRouters />
 
-   <div className='title'>
- 
-   <h3>Niños</h3>
-   </div>
+   
   
-  
-
    <div className='images-cont'>
-
+<nav className='title'>
+ <h3>Niños</h3>
+   </nav>
    <div className='squad-images'>
     <img src={puma} className='img-puma' alt="Puma Espuma" width='130px'/> 
     <p>¡Hola amigo/a, soy Puma Espuma, bienvenido!</p>
