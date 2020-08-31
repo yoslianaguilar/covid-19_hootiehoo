@@ -1,6 +1,4 @@
-/* MOBILE FIRST */
-
-.kids {
+.kids, .quiz, .games, .videos {
     display:flex;
     flex-direction: column; 
     text-align:center;
@@ -9,65 +7,6 @@
     padding:20px;
     }
     
-/* .kids-routes {
-    display:grid;
-} */
-
-h3 {
-    margin-top:10px;
-    align-items:center;   /* alinea verticalmente */
-    justify-items:center; /*alinea horizontalmente */
-}
-
-h3 {
-    margin-top:10px;
-    align-items:center;   /* alinea verticalmente */
-    justify-items:center; /*alinea horizontalmente */
-}
-
-.text {
-    padding: 20px;
-}
-
-.images-cont {
-    display:flex;
-   flex-direction:column;
-    margin:2px;
-    padding:20px;
-}
-
-.squad-images {
-flex-direction:row;
-}
-
-.buttons-cont {
-display:grid;
-grid-template-columns: 1fr; 
-text-align: center;
-justify-content:center;
-justify-items:center;
-justify-self:center;
-} 
-
-.img-corona {
-    margin:10px;
-}
-
- /* button {
-   background-color:#572A99;
-   padding: 10px;
-   color:white;
-   border-radius: 30px;
-   width: 80%;
-} */
-
- /* .puma-cont {
-display:grid;
-grid-template-rows:1fr;
-padding:10px;
-} */
-
-.img-puma {
-    padding: 10px;
-    
-}   
+    .games {
+        margin-bottom:30px;
+    }
