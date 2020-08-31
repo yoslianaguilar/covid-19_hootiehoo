@@ -1,5 +1,5 @@
 import React from 'react';
-import {KidsRouters} from '../routers/kidsRouters';
+import { KidsRouters } from '../routers/kidsRouters';
 import puma from '../Img/GAV_Personaje03.png';
 import guante from '../Img/GAV_Personaje06.png';
 import jabon from '../Img/GAV_Personaje04.png';
@@ -12,15 +12,17 @@ import '../css/kids.css';
 
 export const KidsHome = () =>{
   return(
+    
     <div className='kids'>
+  
+       <KidsRouters />
 
-   <div className='title'>
-   <h3>Niños</h3>
-   </div>
-   <KidsRouters />
-
+   
+  
    <div className='images-cont'>
-
+<nav className='title'>
+ <h3>Niños</h3>
+   </nav>
    <div className='squad-images'>
     <img src={puma} className='img-puma' alt="Puma Espuma" width='130px'/> 
     <p>¡Hola amigo/a, soy Puma Espuma, bienvenido!</p>

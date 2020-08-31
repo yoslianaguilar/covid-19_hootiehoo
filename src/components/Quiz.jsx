@@ -1,6 +1,7 @@
 import React, {useEffect, useState }from 'react';
 import data from '../data/data.json';
 
+
 export const Quiz = (props) => {
 
 const [currentQuestion, setCurrentQuestion] = useState({});
@@ -51,6 +52,7 @@ const [currentQuestion, setCurrentQuestion] = useState({});
 
   const questions = props.questions || [];
   return (
+    
     <div className='quizContainer'>
       <p>Tu Puntuación es: {score}</p>
       <div className='question'>
