@@ -2,6 +2,7 @@ import React from 'react';
 import { GameJump } from '../components/GameJump.jsx'
 import { Puzzle } from '../components/Puzzle.jsx'
 import { KidsRouters } from '../routers/kidsRouters';
+import { GameDownload } from '../components/GameDownload.jsx'
 import '../css/kids.css';
 
 export const kidsGame = () =>{
@@ -10,7 +11,8 @@ export const kidsGame = () =>{
           <KidsRouters />
     <h3>Juegos</h3>
     <GameJump/> 
-    <Puzzle/>      
+    <Puzzle/> 
+    <GameDownload/>     
     </div>
   )
 }
