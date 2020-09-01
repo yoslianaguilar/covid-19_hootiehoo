@@ -1,33 +1,51 @@
 /* MOBILE FIRST */
 .home {
+    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(110deg, rgba(216,253,254,1) 0%, rgba(203,185,244,1) 100%);
+    background-repeat:no-repeat;
 text-align:center;
 justify-content: center;
 justify-items: center;
 padding:10px;
-margin-top: 12px;
-min-height:600px;
+/* min-height:600px; */
 }
 
+.title {
+    background: rgb(255, 255, 255);
+  
+    padding:20px;
+    border-radius:20px;
+  }
+
 h3 {
-    margin-top:10px;
+
     align-items:center;  
      /* alinea verticalmente */
     justify-items:center; 
     /*alinea horizontalmente */
 }
 
-/* .text, .welcome {
+ .text, .welcome {
     padding: 20px;
 }
 
 .welcome {
+    background: rgb(255, 255, 255);
     padding:10px;
-} */
+    border-radius: 20px;
+} 
 
 .img-cont {
+      background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(110deg, rgba(216,253,254,1) 0%, rgba(203,185,244,1) 100%);
+    background-repeat:no-repeat;
     align-items:center;   /* alinea verticalmente */
     justify-items:center; /*alinea horizontalmente */
    padding:10px;
+   margin-bottom:20px;
+   border-end-end-radius: 20px;
 }
 
 .img-virus {
