@@ -23,7 +23,7 @@ export const Quiz = (props) => {
                   <button 
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
-                    {answer.description}
+                    {answer.description} {<img alt="" src ={answer.img}/>}
                   </button>
                 )
               })}
