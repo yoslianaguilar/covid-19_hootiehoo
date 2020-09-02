@@ -54,7 +54,7 @@ margin:0px auto;
   text-align:center;
   align-self:center;
   border-radius:20px;
-  padding:20px;
+  padding:10px;
   color: #2c73c5;
 }
 
@@ -70,6 +70,7 @@ p, a {
 h3 {
   text-align:center;
 }
+
 
 
 /* MEDIA QUERIES

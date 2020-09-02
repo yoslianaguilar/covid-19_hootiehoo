@@ -7,7 +7,6 @@ export const kidsVideos = () =>{
   return(
     <div className ='view-container videos'>
     <KidsRouters />
-    <h3>Videos</h3>
     <Videos/> 
     </div>
   )
