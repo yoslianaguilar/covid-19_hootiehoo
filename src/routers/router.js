@@ -20,6 +20,7 @@ import { kidsGame } from "../views/kidsGame";
 import { kidsVideos } from "../views/kidsVideos";
 import { AdultsHome } from '../views/adultsHome';
 import { KidsHome } from '../views/kidsHome';
+// import { AdultTrivia } from '../components/AdultTrivia';
 
 export const AppRouter = () => {
   return (
@@ -43,11 +44,13 @@ export const AppRouter = () => {
           <Route  path='/adultTips' component= {PsicologicosTips} />
           <Route  path='/adultNews' component= {AdultNews} />
           <Route  path="/materialDownload" component= {AdultMaterialDownload} />
+          {/* <Route  path="/adultTrivia" component= {AdultTrivia}  /> */}
 
           <Route path='/KidsHome' component= {KidsHome} />
            <Route path='/quiz' component= {kidsQuiz} />
           <Route path='/games' component= {kidsGame} />
           <Route path="/videos" component= {kidsVideos} />
+         
         </Switch>
 
     </Router>

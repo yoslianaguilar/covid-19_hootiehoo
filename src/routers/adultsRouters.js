@@ -41,6 +41,7 @@ export const AdultsRouters = () => (
          <div className="navbar2">
         <Link to='/adultsHome'>Adultos</Link>
         <Link to='/adultTips'>Consejos</Link>
+        <Link to='/adultTrivia'>Trivias</Link>
         <Link to='/adultNews'>Noticias</Link>
         <Link to='/materialDownload'>Descarga</Link>
     </div>
