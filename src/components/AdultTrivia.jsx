@@ -6,7 +6,8 @@ export const AdultTrivia = (props) => {
 const [currentQuestion, setCurrentQuestion] = useState({});
   const [step, setStep] = useState(0);
   const [score, setScore] = useState(0);
-  const [result, setResult] = useState ("");
+  const [result, setResult] = useState("");
+  const [disabled, setDisabled] = useState(false); 
 
   useEffect(() => {
     setCurrentQuestion(data.questions[0]);
@@ -18,6 +19,7 @@ const [currentQuestion, setCurrentQuestion] = useState({});
   };
 
   const onNext = () => {
+    setDisabled(false)
     const totalQuestions = data.questions.length
     if ((step + 1) === totalQuestions) {
       return;
@@ -33,6 +35,7 @@ const [currentQuestion, setCurrentQuestion] = useState({});
 
 
   const handleOnClickAnswer = (isCorrect) =>{
+    setDisabled(true)
     const onOk = () => {
       setScore(score + 1)
       setResult("Respuesta Correcta")
@@ -49,22 +52,29 @@ const [currentQuestion, setCurrentQuestion] = useState({});
     }
   };  
 
+
+const speech = (message) => {
+  
+  let msg = new SpeechSynthesisUtterance();
+  msg.text = message;
+  speechSynthesis.speak(msg);
+};
+
   // const questions = props.questions || [];
   return (
     <div className='quizContainer'>
       <p>Tu Puntuación es: {score}</p>
       <div className='question'>
-       
-        <h4>{currentQuestion.description}</h4>
+       <h1>{currentQuestion.description}</h1> {/* Preguntas */}
         
           <div className='answers'>
               {currentQuestion.answers?.map((answer, aindex)=>{
                 return (
-                  <button 
+                  <button disabled={disabled}
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
                     {<img alt="" src ={answer.img}/>}
-                    {answer.description} 
+                    {answer.description}  {/* Respuestas */}
                   </button>
                 )
               })}
@@ -73,7 +83,8 @@ const [currentQuestion, setCurrentQuestion] = useState({});
         <button className="buttonNext"
           onClick={onNext}>Siguiente Pregunta
         </button>
-       
+       <button onClick={speech(currentQuestion.description)}>Audio</button> 
+
       </div>
     </div>
     
