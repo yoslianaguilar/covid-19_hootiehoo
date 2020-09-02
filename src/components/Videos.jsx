@@ -2,9 +2,17 @@ import React from 'react';
 
 export const Videos = () => {
     return (
-        <div className ='videos'>
-            <h4>Conoce y sigue las aventuras de Puma Espuma y el Escuadrón Prevención </h4>
 
+        <div className ='videos'>
+
+            <div className='title'>
+            <h3>Videos</h3>
+            </div>
+
+            <div className='subtitle'>
+            <h5>Conoce y sigue las aventuras de Puma Espuma y el Escuadrón Prevención </h5>
+            </div>
+           
             <div className ='videos-cont'>
 
             <div className ='video'>

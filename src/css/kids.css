@@ -7,8 +7,9 @@
     padding:20px;
     } */
 
-    .kids {
-        margin-bottom:30px;
+       .kids {
+        margin-bottom:20px;
+        padding:1¡20px;
     }
     
     .games {
@@ -16,30 +17,26 @@
     }
 
     .videos-cont {
-        padding:20px;
+        padding:10px;
         text-align:center;
         align-content: center;
         align-self: center;align-self: center;
     }
     
     .video {
-        padding:10px;
+        padding:5px;
         text-align:center;
         align-content: center;
         align-self: center;align-self: center;
     }
 
-    .title, .kidstitle {
-        padding:10px;
-        margin-top:10px;
-    }
 
     .hottie-images {
         padding:10px;
     }
 
    .welcome, .welcomekids {
-       max-width:max-content;
+       /* max-width:max-content; */
        margin:5px;
    }
 
@@ -50,3 +47,15 @@
        justify-self:center;
    }
 
+
+   .container-games {
+
+   }
+
+   .title, .kidstitle {
+       padding-top:10px;
+   }
+   .subtitle h5{
+color:#2c73c5;
+padding:10px;
+   }
