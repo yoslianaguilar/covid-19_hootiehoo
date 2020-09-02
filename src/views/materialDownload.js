@@ -5,7 +5,7 @@ import '../css/adults.css';
 
 export const AdultMaterialDownload = () =>{
   return(
-    <div className='download'>
+    <div className='view-container download'>
       <AdultsRouters />
     <MaterialDownload />
     </div>

@@ -28,15 +28,16 @@ color: white;
     color: #ec8313ec;
   }
  }
- .navbar2 {
+ .navbar3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    grid-gap: 10px;
+    grid-gap: 5px;
     background: #562a99a8;
     color:white;
     padding: 5px 0;
     border-bottom: 2px solid #ec8313ec;
     border-radius:10px;
+    text-align:center;
 }
 a {
     color:white;
@@ -47,7 +48,7 @@ a {
 export const KidsRouters = () => (
 
     <NavBarContainer>
-         <div className="navbar2">
+         <div className="navbar3">
         <Link to="/kidsHome">Niños</Link>
         <Link to="/quiz">Trivias</Link>
         <Link to="/games">Juegos</Link>

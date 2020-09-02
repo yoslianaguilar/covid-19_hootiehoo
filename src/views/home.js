@@ -7,7 +7,7 @@ import '../css/home.css';
 export const HomePage = () =>{
   return(
 
-     <div className ='home'>
+     <div className ='view-container home'>
 
         
    <div className='title'>
@@ -16,7 +16,7 @@ export const HomePage = () =>{
          
      <div className = 'img-cont'>
      <img src={liga} className='img-liga' alt="Liga" width='200px'/> 
-      <p className='text, welcome'>Bienvenido! Aquí encontrarás información relevante sobre el Covid-19, actividades para niños, consejos,
+      <p className='text1, welcome'>Bienvenido! Aquí encontrarás información relevante sobre el Covid-19, actividades para niños, consejos,
          material descargable, videos y mucho más.</p> 
  
     <img src={virus} className='img-virus' alt="Virus" width='100px'/> 

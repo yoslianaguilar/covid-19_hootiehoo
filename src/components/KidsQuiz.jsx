@@ -63,7 +63,9 @@ const [currentQuestion, setCurrentQuestion] = useState({});
                   <button 
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
-                    {<img alt="" src ={answer.img} />}
+                      <div className='imgMasc'>
+                    {<img alt="" width='20px 'src ={answer.img} />}
+                    </div>
                     {answer.description} 
                   </button>
                 )

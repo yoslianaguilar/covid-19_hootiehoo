@@ -1,10 +1,14 @@
-.kids, .quiz, .games, .videos {
+/* .kids, .quiz, .games, .videos {
     display:flex;
     flex-direction: column; 
     text-align:center;
     justify-content: center;
     justify-items: center;
     padding:20px;
+    } */
+
+    .kids {
+        margin-bottom:30px;
     }
     
     .games {
@@ -15,4 +19,34 @@
         padding:20px;
         text-align:center;
         align-content: center;
+        align-self: center;align-self: center;
     }
+    
+    .video {
+        padding:10px;
+        text-align:center;
+        align-content: center;
+        align-self: center;align-self: center;
+    }
+
+    .title, .kidstitle {
+        padding:10px;
+        margin-top:10px;
+    }
+
+    .hottie-images {
+        padding:10px;
+    }
+
+   .welcome, .welcomekids {
+       max-width:max-content;
+       margin:5px;
+   }
+
+  .video {
+       text-align:center;
+       justify-content:center;
+       justify-items:center;
+       justify-self:center;
+   }
+
