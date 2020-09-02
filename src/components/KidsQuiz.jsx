@@ -50,7 +50,7 @@ const [currentQuestion, setCurrentQuestion] = useState({});
     }
   };  
 
-  const questions = props.questions || [];
+  //const questions = props.questions || [];
   return (
     
     <div className='quizContainer'>
@@ -63,7 +63,8 @@ const [currentQuestion, setCurrentQuestion] = useState({});
                   <button 
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
-                    {answer.description} {<img alt="" src ={answer.img} />}
+                    {<img alt="" src ={answer.img} />}
+                    {answer.description} 
                   </button>
                 )
               })}
