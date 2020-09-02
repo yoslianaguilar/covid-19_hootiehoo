@@ -55,7 +55,7 @@ const [currentQuestion, setCurrentQuestion] = useState({});
       <p>Tu Puntuación es: {score}</p>
       <div className='question'>
        
-        <h1>{currentQuestion.description}</h1>
+        <h4>{currentQuestion.description}</h4>
         
           <div className='answers'>
               {currentQuestion.answers?.map((answer, aindex)=>{
