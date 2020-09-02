@@ -9,7 +9,7 @@
 
        .kids {
         margin-bottom:20px;
-        padding:1¡20px;
+        padding:10px;
     }
     
     .games {
@@ -48,13 +48,6 @@
    }
 
 
-   .container-games {
-
-   }
-
-   .title, .kidstitle {
-       padding-top:10px;
-   }
    .subtitle h5{
 color:#2c73c5;
 padding:10px;
