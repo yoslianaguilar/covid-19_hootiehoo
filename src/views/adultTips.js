@@ -5,7 +5,7 @@ import '../css/adults.css';
 
 export const PsicologicosTips = () =>{
   return(
-    <div className='tips'>
+    <div className='view-container tips'>
        <AdultsRouters /> 
     <AdultTipsInf /> 
     </div>

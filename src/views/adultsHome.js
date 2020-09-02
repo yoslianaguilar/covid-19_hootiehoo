@@ -4,7 +4,7 @@ import '../css/adults.css';
 
 export const AdultsHome = () =>{
   return(
-    <div className='adults'>
+    <div className='view-container adults'>
   <AdultsRouters />
      <div ClassName='title'>
      <h3>Estimados padres y educadores:</h3>

@@ -1,28 +1,12 @@
 .about {
 text-align:center;
-background-color:#562a99a8;
-color:white;
-padding-bottom:150px;
 }
 
-.container {
-    padding:0px;
- }  
-
-.info-cont {
-  padding-top:30px;
-}
-
-h3 {
-    margin-top:10px;
-    align-items:center;  
-    justify-items:center; 
-}
-
-.text {
-    padding: 30px;
-}
-
+.info-container {
+  background-color:#4c248aa8;
+  padding:20px;
+  max-height:max-content;
+} 
 
  .icono2-cont {
   padding:20px;
@@ -32,4 +16,13 @@ h3 {
     justify-items:center;
     justify-self:center;
     padding-top:10px;
+    margin:0px auto;
+}
+
+.text2 {
+margin:20px;
+}
+
+.title2, p {
+   margin:10px; 
 }

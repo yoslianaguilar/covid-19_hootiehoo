@@ -7,7 +7,7 @@ import '../css/kids.css';
 
 export const kidsGame = () =>{
   return(
-    <div className ='games'>
+    <div className ='view-container games'>
           <KidsRouters />
     <h3>Juegos</h3>
     <GameJump/> 
