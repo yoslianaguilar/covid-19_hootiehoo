@@ -1,4 +1,4 @@
-.adults, .tips, .news, .download {
+.adults, .tips, .news, .aQuiz .download, .quizContainer {
 display:flex;
 flex-direction: column; 
 text-align:center;

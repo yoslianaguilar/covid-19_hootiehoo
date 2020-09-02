@@ -15,12 +15,14 @@ import { Layout } from '../components/Layout';
 import { PsicologicosTips } from '../views/adultTips';
 import { AdultNews } from "../views/adultNews";
 import { AdultMaterialDownload } from "../views/materialDownload";
+import { AdultsQuiz } from '../views/adultTrivia';
+
 import { kidsQuiz } from "../views/kidsQuiz";
 import { kidsGame } from "../views/kidsGame";
 import { kidsVideos } from "../views/kidsVideos";
 import { AdultsHome } from '../views/adultsHome';
 import { KidsHome } from '../views/kidsHome';
-// import { AdultTrivia } from '../components/AdultTrivia';
+
 
 export const AppRouter = () => {
   return (
@@ -35,8 +37,6 @@ export const AppRouter = () => {
           <Route path='/contact' component= {ContactPage} />
           <Route exact path="/" component={HomePage} />
           
-
-
           <Route path='/adultsHome' component= {AdultsHome}/>
           <Route path='/kidsHome' component= {KidsHome} />
 
@@ -44,7 +44,7 @@ export const AppRouter = () => {
           <Route  path='/adultTips' component= {PsicologicosTips} />
           <Route  path='/adultNews' component= {AdultNews} />
           <Route  path="/materialDownload" component= {AdultMaterialDownload} />
-          {/* <Route  path="/adultTrivia" component= {AdultTrivia}  /> */}
+          <Route  path="/adultTrivia" component= {AdultsQuiz}  />
 
           <Route path='/KidsHome' component= {KidsHome} />
            <Route path='/quiz' component= {kidsQuiz} />
