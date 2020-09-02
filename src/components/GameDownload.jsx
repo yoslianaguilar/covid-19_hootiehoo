@@ -6,7 +6,7 @@ import sopa from '../Img/sopa.png'
 export const GameDownload = () => {
     return (
         <div className='download'>
-            <h4>Maravilloso eres muy bueno con los juegos, por eso te regalamos los siguientes juegos para que los descargues y los imprimas</h4>
+            <h5>Maravilloso eres muy bueno con los juegos, por eso te regalamos los siguientes juegos para que los descargues y los imprimas</h5>
     
        <div className='downbox'>
     <h5>Descarga el siguiente Memorice, imprímelo, córtalo y diviértete con tu familia </h5>

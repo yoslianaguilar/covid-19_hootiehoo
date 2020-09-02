@@ -52,7 +52,6 @@ const [currentQuestion, setCurrentQuestion] = useState({});
 
   //const questions = props.questions || [];
   return (
-    
     <div className='quizContainer'>
       <p>Tu Puntuación es: {score}</p>
       <div className='question'>
@@ -78,6 +77,8 @@ const [currentQuestion, setCurrentQuestion] = useState({});
        
       </div>
     </div>
+    
+
     
   )
 }     
