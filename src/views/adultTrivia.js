@@ -9,8 +9,8 @@ export const AdultsQuiz = () =>{
   return(
     <div className='aQuiz'>
         <AdultsRouters />
+        <h3>Trivia</h3>
       <AdultTrivia questions={data.questions}/>
-      <h3>Trivia</h3>
     </div>
   )
 }
