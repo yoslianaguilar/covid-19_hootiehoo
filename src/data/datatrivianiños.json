@@ -6,17 +6,17 @@
           {
             "description": "Por las gotas de la respiración que se expulsan al toser y estornudar",
             "isCorrect": false,
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSg4deEYZZbJxmZU6r3SzmkjYvCF-PP4JDJaw&usqp=CAU"
+            "img": "https://i.ibb.co/M11S8qN/toser2.png"
           }, 
           {
             "description": "Al tocar superficies contaminadas con el virus y, a continuación, tocarse la cara",
             "isCorrect": false,
-            "img":"url"
+            "img":"https://i.ibb.co/1bhTt2J/puerta.png"
           }, 
           {
             "description": "Las dos",
             "isCorrect": true,
-            "img":"url"
+            "img":"https://i.ibb.co/fxR6s6X/Check-Correcto.png"
           }          
         ]
       },
@@ -26,12 +26,12 @@
           {
             "description": "Si",
             "isCorrect": false,
-            "img":"url"
+            "img":"https://i.ibb.co/fxR6s6X/Check-Correcto.png"
           }, 
           {
             "description": "No",
             "isCorrect": true,
-            "img":"url"
+            "img":"https://i.ibb.co/DYV4ZZS/Check-Incorrecto.png"
           }                 
         ]
       },
@@ -41,17 +41,17 @@
           {
             "description": "A las personas de edad avanzada.",
             "isCorrect": false,
-            "img":"url"
+            "img":"https://i.ibb.co/px4c1mD/anciano.png"
           }, 
           {
             "description": "A los jóvenes",
             "isCorrect": false,
-            "img":"url"
+            "img":"https://i.ibb.co/T2FWjXs/nina.png"
           },
           {
             "description": "A todo el mundo",
             "isCorrect": true,
-            "img":"url"
+            "img":"https://i.ibb.co/ZmHQ40n/grupopersonas.png"
           }        
         ]
       },
@@ -61,12 +61,12 @@
           {
             "description": "Si",
             "isCorrect": false,
-            "img":"url"
+            "img":"https://i.ibb.co/fxR6s6X/Check-Correcto.png"
           }, 
           {
             "description": "No",
             "isCorrect": true,
-            "img":"url"
+            "img":"https://i.ibb.co/DYV4ZZS/Check-Incorrecto.png"
           }         
         ]
       }
