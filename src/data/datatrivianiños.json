@@ -1,27 +1,27 @@
 { 
     "questions":[
       {
-        "description": "¿Cómo se transmite la enfermedad por coronavirus (COVID-19)?",
+        "description": "¿Cómo se transmite el coronavirus (COVID-19)?",
         "answers":[
           {
-            "description": "Por las gotas de la respiración que se expulsan al toser y estornudar",
+            "description": "Por gotas de respiración que se expulsan al toser",
             "isCorrect": false,
             "img": "https://i.ibb.co/M11S8qN/toser2.png"
           }, 
           {
-            "description": "Al tocar superficies contaminadas con el virus y, a continuación, tocarse la cara",
+            "description": "Al tocar superficies contaminadas y luego tocarse la cara",
             "isCorrect": false,
             "img":"https://i.ibb.co/1bhTt2J/puerta.png"
           }, 
           {
-            "description": "Las dos",
+            "description": "Ambas alternativas son correctas",
             "isCorrect": true,
             "img":"https://i.ibb.co/fxR6s6X/Check-Correcto.png"
           }          
         ]
       },
       {
-        "description": "¿Puede mi mascota contagiarme la enfermedad por coronavirus (COVID-19)?",
+        "description": "¿Puede mi mascota contagiarme el coronavirus?",
         "answers":[
           {
             "description": "Si",
@@ -39,7 +39,7 @@
         "description": "¿A quién afecta la enfermedad por coronavirus (COVID-19)?",
         "answers":[
           {
-            "description": "A las personas de edad avanzada.",
+            "description": "A las personas mayores.",
             "isCorrect": false,
             "img":"https://i.ibb.co/px4c1mD/anciano.png"
           }, 
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "description": "¿Existe una vacuna o un medicamento específico para prevenir o tratar la enfermedad por coronavirus (COVID-19)?",
+        "description": "¿Existe una vacuna o un medicamento para prevenir o tratar esta enfermedad?",
         "answers":[
           {
             "description": "Si",

@@ -1,10 +1,17 @@
-.adults, .tips, .news, .aQuiz .download {
-display:flex;
-flex-direction: column; 
-text-align:center;
-justify-content: center;
-justify-items: center;
-padding:10px;
+
+.adults {
+     padding:10px; 
+     margin-bottom:50px;
+      text-align:center;
+    }   
+
+.info {
+    padding:15px;
+   
+}
+
+.tipList {
+    padding:20px;
 }
 
 .newsbox {
@@ -17,6 +24,14 @@ padding:10px;
     padding:10px;
 }
 
-.imgMasc {
-    
+.title {
+    margin-top:10px;
+}
+
+.img-welcome {
+    padding:20px;
+}
+
+.covid {
+    padding:20px;
 }

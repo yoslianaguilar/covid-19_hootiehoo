@@ -4,8 +4,7 @@ import portada from '../Img/portada.png'
 export const MaterialDownload = () => {
     return (
         <div className='download'>
-            <h3>Material para descargar</h3>
-
+     
             <div className='downbox'>
     <h5>Modulo I - Tema 1 - "¿Qué está pasando?"</h5>
     <a href="https://drive.google.com/file/d/1wYdXjI50S1vLI-DyP-8FxTvwoq69WjDT/view?usp=sharing" download="HH_GanemosleAlVirus_PDF_M1_T1.pdf"><img class="projectImg" src={portada} width='120px' alt="project portada"></img></a>

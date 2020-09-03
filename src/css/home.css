@@ -1,5 +1,12 @@
-.home {
- height:100%; 
+.view-container2 {
+ display:flex;
+ flex-direction:column; 
+ /* height:100%;    */
+ padding:20px;
+ text-align:center; 
+ justify-content: center;
+ justify-items: center; 
+ align-self:center;
 }
 
 h3 {
@@ -9,6 +16,9 @@ h3 {
     /*alinea horizontalmente */
 }
 
+.home {
+  margin-bottom:30px;
+}
 
 .text1, .welcome {
     padding: 20px;
@@ -20,18 +30,6 @@ h3 {
     padding:10px;
     border-radius: 20px;
 }  
-
-/* .img-cont {
-      background: rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
-    background: linear-gradient(110deg, rgba(216,253,254,1) 0%, rgba(203,185,244,1) 100%);
-    background-repeat:no-repeat; */
-    /* align-items:center;   /* alinea verticalmente */
-    /* justify-items:center; alinea horizontalmente */
-   /* padding:10px;
-   margin-bottom:20px;
-   border-end-end-radius: 20px;
-}  */
 
 .img-virus {
     padding:10px;

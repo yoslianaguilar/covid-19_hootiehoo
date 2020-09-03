@@ -1,5 +1,6 @@
 import React, {useEffect, useState }from 'react';
 import data from '../data/datatrivianiños.json';
+import next from '../Img/BotonDerecha_P6_Presion.png';
 
 
 export const KidsQuiz = (props) => {
@@ -53,31 +54,37 @@ const [currentQuestion, setCurrentQuestion] = useState({});
   //const questions = props.questions || [];
   return (
     <div className='quizContainer'>
-      <p>Tu Puntuación es: {score}</p>
       <div className='question'>
         <p>{currentQuestion.description}</p>
           <div className='answers'>
               {currentQuestion.answers?.map((answer, aindex)=>{
                 return (
-                  <button 
+
+
+                  <button className='trivia-btn' 
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
+
+
                       <div className='imgMasc'>
-                    {<img alt="" width='20px 'src ={answer.img} />}
+                    {<img alt="" width='70px 'src ={answer.img} />}
                     </div>
                     {answer.description} 
                   </button>
                 )
               })}
             </div>
-            <h4>{result}</h4>
-        <button className="buttonNext"
-          onClick={onNext}>Siguiente
-        </button>
-       
+
+    <div className='result'> <h4>{result}</h4></div>
+    <h5>Tu Puntuación es: {score}</h5>
+    <div className="buttonNext"
+          onClick={onNext}>
+       <div className='next'>
+       {<img alt="Next" width='70px' src = {next} />}
+       </div>
+     </div>
       </div>
     </div>
-    
 
     
   )

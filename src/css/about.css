@@ -1,11 +1,14 @@
 .about {
-text-align:center;
+padding:10px;
+padding-bottom: 32px;
 }
 
 .info-container {
   background-color:#4c248aa8;
-  padding:20px;
-  max-height:max-content;
+  margin-top:22px;
+  color:white;
+ height:max-content;
+ border-radius:8px;
 } 
 
  .icono2-cont {
@@ -21,8 +24,4 @@ text-align:center;
 
 .text2 {
 margin:20px;
-}
-
-.title2, p {
-   margin:10px; 
 }

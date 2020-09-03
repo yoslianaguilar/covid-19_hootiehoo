@@ -7,7 +7,7 @@ import '../css/home.css';
 export const HomePage = () =>{
   return(
 
-     <div className ='view-container home'>
+     <div className ='view-container2 home'>
 
         
    <div className='title'>

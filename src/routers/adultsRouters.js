@@ -23,7 +23,7 @@ z-index: 1;
 .navbar2 {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-   grid-gap: 2px;
+   grid-gap: 1px;
    background: #562a99a8;
    color:white;
    padding: 8px 0;
@@ -32,6 +32,7 @@ z-index: 1;
 }
 a {
    color:white;
+   font-size:12px;
 }
 
 `;
