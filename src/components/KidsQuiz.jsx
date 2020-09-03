@@ -1,7 +1,7 @@
 import React, {useEffect, useState }from 'react';
 import data from '../data/datatrivianiños.json';
 import next from '../Img/BotonDerecha_P6_Presion.png';
-
+import audio from '../Img/audio.png';
 
 export const KidsQuiz = (props) => {
 
@@ -38,11 +38,13 @@ const [currentQuestion, setCurrentQuestion] = useState({});
     const onOk = () => {
       setScore(score + 1)
       setResult("Respuesta Correcta")
+      speech("Respuesta Correcta")
       
     }
     const onError = () => {
       setScore(score - 1)
       setResult("Respuesta Incorrecta")
+       speech("Respuesta Incorrecta")
     }
     if (isCorrect === true) {
       onOk && onOk(); // si onOK es cierto ejecuta la funcion onOk()
@@ -51,9 +53,36 @@ const [currentQuestion, setCurrentQuestion] = useState({});
     }
   };  
 
+
+const speech = (message) => {
+  if (!message) {
+    return
+  }
+  let msg = new SpeechSynthesisUtterance();
+  msg.text = message;
+  speechSynthesis.speak(msg);
+  
+};
+
+const speechAnswers =(answers)=>{
+
+  answers.forEach((answer, index)=>{
+    speech("Opción " + (index + 1) +", "+ answer.description);
+  }) 
+}
+
+const speechQuestion = (question) => {
+  speech(question.description)
+  speechAnswers(question.answers)
+}
+
   //const questions = props.questions || [];
   return (
     <div className='quizContainer'>
+      <div className="audiobutton">
+       <button className ='audio' onClick={()=>speechQuestion(currentQuestion)}>
+       {<img alt="audio" width='50px' src = {audio} />}</button> 
+       </div>
       <div className='question'>
         <p>{currentQuestion.description}</p>
           <div className='answers'>
