@@ -203,11 +203,8 @@ p, a {
   padding-top:100px;
 } 
 .quiz {
-  height:1190px; 
+  height:1100px; 
 }
-/* .kids {
-  height:900px;
-} */
 
  /* About */
   .about {
@@ -249,6 +246,10 @@ p, a {
     .victory {
       width:600px;
       padding-top:30px;
+    }
+
+     .link a{
+      font-size:40px;
     }
  }
 

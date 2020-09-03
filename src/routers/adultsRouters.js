@@ -20,10 +20,10 @@ z-index: 1;
         grid-template-columns: 1fr 70px;
       }
 }
-.navbar2 {
+.navbar3 {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-   grid-gap: 1px;
+   grid-gap: 0px;
    background: #562a99a8;
    color:white;
    padding: 8px 0;
@@ -32,7 +32,7 @@ z-index: 1;
 }
 a {
    color:white;
-   font-size:20px;
+   font-size:14px;
 }
 
 `;
@@ -40,7 +40,7 @@ a {
 export const AdultsRouters = () => (
 
     <NavBarContainer>
-         <div className="navbar2">
+         <div className="navbar3">
         <Link to='/adultsHome'>Adultos</Link>
         <Link to='/adultTips'>Tips</Link>
         <Link to='/adultTrivia'>Trivia</Link>
