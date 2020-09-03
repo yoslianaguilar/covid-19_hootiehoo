@@ -99,7 +99,6 @@ const speechQuestion = (question) => {
                   <button disabled={disabled}
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
-                    {/* {<img alt="" src ={answer.img}/>} */}
                     {answer.description}  {/* Respuestas */}
                   </button>
                 )
