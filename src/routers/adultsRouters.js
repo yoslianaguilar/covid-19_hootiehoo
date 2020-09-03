@@ -32,7 +32,7 @@ z-index: 1;
 }
 a {
    color:white;
-   font-size:12px;
+   font-size:20px;
 }
 
 `;

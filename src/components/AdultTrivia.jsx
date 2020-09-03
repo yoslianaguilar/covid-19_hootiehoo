@@ -2,6 +2,7 @@ import React, {useEffect, useState }from 'react';
 import data from '../data/data.json';
 import next from '../Img/BotonDerecha_P6_Presion.png';
 import covid from '../Img/covid.PNG';
+import audio from '../Img/audio.png';
 
 export const AdultTrivia = (props) => {
 
@@ -65,7 +66,12 @@ const speech = (message) => {
   // const questions = props.questions || [];
   return (
     <div className='quizContainer'>
-     
+
+      <div className="audiobutton">
+       <button className ='audio' onClick={speech(currentQuestion.description)}>
+       {<img alt="audio" width='50px' src = {audio} />}</button> 
+       </div>
+
       <div className='question'>
       <img src={covid} className='covid' alt="Covid" width='200'/> 
 
@@ -88,10 +94,11 @@ const speech = (message) => {
           onClick={onNext}>
        <div className='next'>
        {<img alt="Next" width='70px' src = {next} />}
-       <button onClick={speech(currentQuestion.description)}>Audio</button> 
-       </div>
+
+      
      </div>
       </div>
+    </div>
     </div>
     
   )

@@ -35,3 +35,16 @@
 .covid {
     padding:20px;
 }
+
+.audiobutton, .audio {
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-items:center;
+   padding:5px;
+   width:64px;
+}
+
+.audio{
+   background:#ec8313ec;
+}
