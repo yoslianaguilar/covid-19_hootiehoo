@@ -151,6 +151,13 @@ p, a {
   padding-top:30px;
   width:400px;
 }
+.adults {
+  height: 900px;
+}
+.victory {
+  width:400px;
+  margin-top:30px;
+}
 }
 
 
@@ -195,6 +202,12 @@ p, a {
 .btn-cont {
   padding-top:100px;
 } 
+.quiz {
+  height:1190px; 
+}
+/* .kids {
+  height:900px;
+} */
 
  /* About */
   .about {
