@@ -88,6 +88,7 @@ const speech = (message) => {
           onClick={onNext}>
        <div className='next'>
        {<img alt="Next" width='70px' src = {next} />}
+       <button onClick={speech(currentQuestion.description)}>Audio</button> 
        </div>
      </div>
       </div>
