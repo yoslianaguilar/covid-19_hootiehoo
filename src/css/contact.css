@@ -3,24 +3,31 @@
  color: #2c73c5;
   text-align: center;
   justify-items: center;
+  margin-bottom:60px;
+  }
+
+  .info-container, .contact {
+    align-self:center;
+    align-content: center;
+    padding-bottom:55px;
   }
 
   .information {
     background-color: #ec8313ec;
-    align-self:center;
-    align-content: center;
-    padding: 5px;
+    padding:10px;
+    border-radius:7px;
   }
 
   .info-contact {
-    padding:1px;
+    padding:20px;
   }
 
   .icono1 {
-    padding:8px;
+    padding:10px;
+    padding-top:5px;
   }
 
-.text2, h4 {
+.information {
   color:white;
 }
 
@@ -29,6 +36,5 @@
   }
 
   .contact-text {
-    color:white;
-    padding:5px;
+    color:rgb(255, 255, 255);
   }

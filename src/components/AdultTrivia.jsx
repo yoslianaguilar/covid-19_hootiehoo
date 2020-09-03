@@ -1,5 +1,7 @@
 import React, {useEffect, useState }from 'react';
 import data from '../data/data.json';
+import next from '../Img/BotonDerecha_P6_Presion.png';
+import covid from '../Img/covid.PNG';
 
 export const AdultTrivia = (props) => {
 
@@ -63,28 +65,31 @@ const speech = (message) => {
   // const questions = props.questions || [];
   return (
     <div className='quizContainer'>
-      <p>Tu Puntuación es: {score}</p>
+     
       <div className='question'>
-       <h1>{currentQuestion.description}</h1> {/* Preguntas */}
-        
+      <img src={covid} className='covid' alt="Covid" width='200'/> 
+
+       <h4>{currentQuestion.description}</h4> {/* Preguntas */}
           <div className='answers'>
               {currentQuestion.answers?.map((answer, aindex)=>{
                 return (
                   <button disabled={disabled}
                     onClick={()=> handleOnClickAnswer(answer.isCorrect)}
                     key={`answer-${aindex}`}>
-                    {<img alt="" src ={answer.img}/>}
+                    {/* {<img alt="" src ={answer.img}/>} */}
                     {answer.description}  {/* Respuestas */}
                   </button>
                 )
               })}
             </div>
             <h4>{result}</h4>
-        <button className="buttonNext"
-          onClick={onNext}>Siguiente Pregunta
-        </button>
-       <button onClick={speech(currentQuestion.description)}>Audio</button> 
-
+            <p>Tu Puntuación es: {score}</p>
+            <div className="buttonNext"
+          onClick={onNext}>
+       <div className='next'>
+       {<img alt="Next" width='70px' src = {next} />}
+       </div>
+     </div>
       </div>
     </div>
     

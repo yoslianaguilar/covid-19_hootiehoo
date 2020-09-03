@@ -8,7 +8,6 @@ import Personaje21 from '../Img/Personaje21.png'
 export const AdultNewsInf = () => {
     return (
         <div>
-<h3>Noticias</h3>
         <div className='newsbox'>
         <img class="projectImg" src={Personaje21} width='120px' alt="project Personaje"></img> 
         </div>

@@ -26,7 +26,7 @@
       ]
     },
     {
-      "description": "¿Los científicos creen que la COVID-19 se transmite principalmente por:?",
+      "description": "¿Los científicos creen que el COVID-19 se transmite principalmente por:?",
       "answers":[
         {
           "description": "Gotitas respiratorias que pasan de una persona a otra",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "description": "¿La COVID-19 puede causar una variedad de síntomas que van de leves a potencialmente fatales. En general, estos tres se asocian con la enfermedad:?",
+      "description": "El COVID-19 puede causar una variedad de síntomas. Tres de éstos serían:",
       "answers":[
         {
           "description": "Fiebre, diarrea, molestia en el pecho",
